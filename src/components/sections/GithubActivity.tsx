@@ -33,7 +33,7 @@ export async function GithubActivity() {
                 </div>
             </div>
 
-            <div className="p-8 bg-white dark:bg-[#0d1117] rounded-3xl border border-slate-200 dark:border-slate-800 overflow-hidden relative group">
+            <div className="p-4 md:p-8 bg-white dark:bg-[#0d1117] rounded-3xl border border-slate-200 dark:border-slate-800 overflow-hidden relative group w-full">
                 {/* Character/Avatar Deviation */}
                 <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none">
                     <div className="relative w-4 h-4">
@@ -45,7 +45,7 @@ export async function GithubActivity() {
                     </div>
                 </div>
 
-                <div className="overflow-x-auto pb-4 scrollbar-thin scrollbar-thumb-slate-200 dark:scrollbar-thumb-slate-700 scrollbar-track-transparent">
+                <div className="overflow-x-auto pb-4 scrollbar-thin scrollbar-thumb-slate-200 dark:scrollbar-thumb-slate-700 scrollbar-track-transparent w-full">
                     <div className="flex gap-1.5 min-w-[700px]">
                         {/* Month Labels mock - simplistic approach for layout */}
                     </div>
@@ -77,17 +77,17 @@ export async function GithubActivity() {
                     </div>
                 </div>
 
-                <div className="mt-8 flex justify-between items-center text-sm text-slate-500 font-medium">
-                    <div className="flex gap-10 pl-2">
+                <div className="mt-6 md:mt-8 flex flex-col md:flex-row gap-4 justify-between items-start md:items-center text-sm text-slate-500 font-medium">
+                    <div className="flex gap-6 md:gap-10 pl-2 overflow-x-auto w-full scrollbar-none min-w-max pb-2 md:pb-0 font-mono text-xs md:text-sm">
                         <span>Mar</span><span>Apr</span><span>May</span><span>Jun</span><span>Jul</span><span>Aug</span><span>Sep</span><span>Oct</span><span>Nov</span><span>Dec</span><span>Jan</span>
                     </div>
-                    <div className="flex items-center gap-2 text-xs">
+                    <div className="flex items-center gap-2 text-xs self-end md:self-auto shrink-0 mt-2 md:mt-0">
                         <span>Less</span>
-                        <div className="w-4 h-4 bg-[#ebedf0] dark:bg-[#161b22] rounded-sm"></div>
-                        <div className="w-4 h-4 bg-[#9be9a8] dark:bg-[#0e4429] rounded-sm"></div>
-                        <div className="w-4 h-4 bg-[#40c463] dark:bg-[#006d32] rounded-sm"></div>
-                        <div className="w-4 h-4 bg-[#30a14e] dark:bg-[#26a641] rounded-sm"></div>
-                        <div className="w-4 h-4 bg-[#216e39] dark:bg-[#39d353] rounded-sm"></div>
+                        <div className="w-3 h-3 md:w-4 md:h-4 bg-[#ebedf0] dark:bg-[#161b22] rounded-[2px] md:rounded-sm"></div>
+                        <div className="w-3 h-3 md:w-4 md:h-4 bg-[#9be9a8] dark:bg-[#0e4429] rounded-[2px] md:rounded-sm"></div>
+                        <div className="w-3 h-3 md:w-4 md:h-4 bg-[#40c463] dark:bg-[#006d32] rounded-[2px] md:rounded-sm"></div>
+                        <div className="w-3 h-3 md:w-4 md:h-4 bg-[#30a14e] dark:bg-[#26a641] rounded-[2px] md:rounded-sm"></div>
+                        <div className="w-3 h-3 md:w-4 md:h-4 bg-[#216e39] dark:bg-[#39d353] rounded-[2px] md:rounded-sm"></div>
                         <span>More</span>
                     </div>
                 </div>
