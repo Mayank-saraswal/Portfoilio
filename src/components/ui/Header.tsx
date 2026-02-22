@@ -10,7 +10,7 @@ export function Header() {
     const { setTheme, theme } = useTheme();
 
     return (
-        <header className="fixed top-0 left-85 right-80 z-50 flex items-center justify-between px-6 py-4 bg-background/80 backdrop-blur-md border-b border-border/40">
+        <header className="fixed top-0 left-30 right-30 z-10 flex items-center justify-between px-6 py-4 bg-background/80 backdrop-blur-md border-b border-border/40">
             {/* Logo / Avatar */}
             <Link href="/" className="flex items-center gap-2">
                 <div className="relative w-15 h-15 overflow-hidden rounded-lg bg-yellow-400 border-2 border-yellow-500">

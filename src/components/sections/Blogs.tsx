@@ -14,7 +14,7 @@ export function Blogs() {
                     <div className="aspect-video rounded-3xl overflow-hidden bg-slate-100 dark:bg-slate-900 mb-4 relative">
                         <Image
                             alt="Blog 1"
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuB6oqLm0-Id4pVCo0dXGBppz3AvaDLYh3V5_tKt-ir8Tn1hwe-Fn3L0-8jzEZTN4jUSKXCV4hC6H1mNqzSdxG_Nl5sARAGSU2fkbpUcRpJ_pQrizrIK5Pw-rEYSirMOSHlg8MrR-YXkeOsqOPUhgfEVq6FzzljnJ2Z7e2ZCUf7N-9izeexQFcnqYXjny5nHunlTCZ1Ee1z7AfE0cpkPbeTj5NFwn5uzslzLx4QMclwPi9DN7PC7k0h1h2qSpomZHuZu7Ealimp6kqSx"
+                            src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg"
                             fill
                             className="object-cover group-hover:scale-105 transition-transform duration-500"
                         />
@@ -34,7 +34,7 @@ export function Blogs() {
                     <div className="aspect-video rounded-3xl overflow-hidden bg-slate-100 dark:bg-slate-900 mb-4 relative">
                         <Image
                             alt="Blog 2"
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCbsWxzq0WuQJtwlk3cGmw-GovtNwwfFONU5Fv5r1RqwmxxdSJ4VTScDQFd7YWW2kqgRnCSLG-We2nzahpOUum-c9usY0E2jHPPKsHurCewPI_9IzkO6MycKB1sPXgvFQtgWuFVLTWAdVdqFA9aKfSJaueYDrnvdrUGGVDdBLgSJihvRePUxpLYbzi09VR6aBYiOltHDDUTIGXFjV13yOJ54awmR8RBx9-dz6mwx1sgohDbcyjnK1ZF44hl5AzSAOZILl8opk5C9zoX"
+                            src="https://images.pexels.com/photos/18105/pexels-photo.jpg"
                             fill
                             className="object-cover group-hover:scale-105 transition-transform duration-500"
                         />
